@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Stocks&Inventory</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/1f1f23633d.js" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- Title  -->
+        <section id="title">
+            <div class="container-fluid">
+            <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand nav-title" href="">Stocks&Inventory</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Help</a>
+                    </li>
+
+                </ul>
+            </div>
+            </nav>
+
+
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">  <!--Any screen size that is large size or bigger(desktop) wiil take 6 umit of row otherwise it will take the full screen width(tablet or mobile)-->
+             <h1 class="big-heading">Manage your Stocks & Inventory items!</h1>
+
+             <button type="button" class="btn btn-warning btn-lg download-btn"> Sign Up/Login</button>
+             <button type="button" class="btn btn-outline-light btn-lg download-btn"> Stock Manager</button>
+          </div>
+          <div class="col-lg-6">
+             <img class="stock-image" src="images/stock-image.png" alt="stock-image">
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features">
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <i class="fas fa-check-circle fa-4x feature-icon"></i>
+                <h3 class="feature-title">Easy to use.</h3>
+                <p>No special training required</p>
+            </div>
+            <div class="col-lg-4">
+                <i class="fas fa-bullseye fa-4x feature-icon"></i>
+                <h3 class="feature-title">Feature-rich</h3>
+                <p>New features and frequent updates</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="feature-icon" src="images/shield-icon.png" alt="shield">
+                <h3 class="feature-title">Secure</h3>
+                <p>We value your personal information</p>
+            </div>
+        </div>
+        </div>
+      </section>
+
+
+        <!-- Testimonials -->
+
+        <section id="testimonials">
+            <div id="thisIdNameisChanged" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                 <div class="carousel-item active container-fluid" >
+                     <h2 class="testimonial-text">This website changed the way I managed my store item stock</h2>
+                     <img class="testimonial-image" src="images/" alt="client1-profile">
+                     <em>Pebbles, New York</em>
+                 </div>
+                 <div class="carousel-item container-fluid">
+                     <h2 class="testimonial-text">Wonderful stock management website, it is so easy to use.</h2>
+                     <img class="testimonial-image" src="images/lady-img.jpg" alt="client2-profile">
+                     <em>Beverly, Illinois</em>
+                 </div>
+              </div>
+             <a class="carousel-control-prev" href="#thisIdNameisChanged" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" ></span>
+             </a>
+             <a class="carousel-control-next" href="#thisIdNameisChanged" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" ></span>
+             </a>
+            </div>
+
+        </section>
+
+
+        <!-- Pricing -->
+
+        <section id="pricing">
+
+          <h2>A Plan for Every Trader Needs</h2>
+          <p>Simple and affordable price plans.</p>
+          <!-- <div class="card-deck">  -->
+           <div class="row">                     <!--  Can also use class="card-deck" in place of grid layout -->
+              <div class="pricing-col col-lg-4 col-md-6">     <!-- Card deck is less flexible grid layput is better -->
+                  <div class="card">
+                     <div class="card-header">
+                       <h3>Tier I</h3>
+                     </div>
+                     <div class="card-body">
+                        <h2 class="price-text">Free</h2>
+                        <p>Max 10 Folders</p>
+                        <p>No automatic backup</p>
+                        <p>No special privileges</p>
+                        <button type="button" class="btn btn-outline-primary btn-block btn-lg">Sign Up</button>
+                     </div>
+                  </div>
+              </div>
+              <div class="pricing-col col-lg-4 col-md-6">
+                  <div class="card">
+                     <div class="card-header">
+                       <h3>Tier II</h3>
+                     </div>
+                     <div class="card-body">
+                         <h2 class="price-text">100₹ / mo</h2>
+                         <p>Unlimited Folders</p>
+                         <p>Auto Cloud Backup</p>
+                         <p>1 month validity</p>
+                         <button type="button" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+                     </div>
+                  </div>
+              </div>
+
+              <div class="pricing-col col-lg-4">
+                  <div class="card">
+                     <div class="card-header">
+                       <h3>Tier III</h3>
+                     </div>
+                     <div class="card-body">
+                        <h2 class="price-text">1000₹ / yr</h2>
+                        <p>Priority Folders</p>
+                        <p>Auto Cloud Backup</p>
+                        <p>1 year validity</p>
+                        <button type="button" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+                     </div>
+                  </div>
+              </div>
+         </div>
+
+        </section>
+
+
+
+         <!-- Call to action -->
+        <section id="cta">
+          <div class="container-fluid">
+              <h3 class="big-heading">Make your life Easy by choosing Stocks&Inventory</h3>
+              <button type="button" class="btn btn-warning btn-lg download-btn">SignUp/Login</button>
+              <button type="button" class="btn btn-light btn-lg download-btn">Stock Manager</button>
+          </div>
+        </section>
+
+
+        <!-- Footer -->
+
+        <footer id="footer_1">
+              <div class="row">
+                <div class="col-lg-6">
+
+                      <h2>Start managing at a single Click!</h2>
+                      <button type="button" class="btn btn-warning btn-lg download-btn">Start Free trial</button>
+
+
+                </div>
+                <div class="col-lg-3 footer_1-blocks">
+
+                      <h4 class="footer_1-header">How to</h4>
+                      <p class="footer_1-item">Use the app</p>
+                      <p class="footer_1-item">Use the extension</p>
+
+                </div>
+                <div class="col-lg-3 footer_1-blocks">
+
+                      <h4 class="footer_1-header">Product</h4>
+                      <p class="footer_1-item">Desktop Application</p>
+                      <p class="footer_1-item">Browser Extension</p>
+
+                </div>
+
+              </div>
+        </footer>
+
+        <footer id="footer_2">
+            <div class="container-fluid">
+                <i class="fab foot margin-icon fa-twitter "></i>
+                <i class="fab foot margin-icon fa-facebook-f"></i>
+                <i class="fab foot margin-icon fa-instagram"></i>
+                <i class="fab foot margin-icon fa-envelope"></i>
+                <p>© Copyright 2020 Stocks&Inventory</p>
+
+            </div>
+
+        </footer>
+
+
+
+
+
+    </body>
+</html>

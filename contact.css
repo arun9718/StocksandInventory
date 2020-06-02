@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container-fluid{
+     padding: 2% 15%;
+}
+
+.contact-header{
+    background-color: #27496d;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.contact-image{
+    width:20%;
+}
+
+/* form section */
+.contact-form{
+    background-color: #fff;
+}
